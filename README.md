@@ -30,13 +30,15 @@ cd opencv-workflow-executor
 . ./build.sh
 ```
 
+
 ## Working
 
+
 1. Create a image processing flow by adding / removing nodes
-<img width="1352" alt="Screenshot 2025-06-22 at 5 40 55 PM" src="https://github.com/user-attachments/assets/e5e83b78-5d5d-4c20-bb87-4dcc756daa16" />
+<img width="1352" alt="Screenshot 2025-06-22 at 5 44 09 PM" src="https://github.com/user-attachments/assets/1195b759-e1d4-49d7-bced-0f8e8abf660d" />
 
 2. Click on the execute button to upload an image for testing out the flow
-<img width="1352" alt="Screenshot 2025-06-22 at 5 44 09 PM" src="https://github.com/user-attachments/assets/c147aa71-f50d-4600-89a4-88e2357c31c3" />
+<img width="1352" alt="Screenshot 2025-06-22 at 5 40 55 PM" src="https://github.com/user-attachments/assets/b9c930d1-5829-44ad-9f18-912d03fd36cc" />
 
 Note:
 1. Preview is not available for TIFF images. Instead TIFF images can be downloaded.
