@@ -1,4 +1,4 @@
-# opencv-workflow-executor
+# opencv-flow-executor
 
 A web-based UI that lets users visually build and experiment with image processing workflows. Designed for flexibility, this tool connects to a Python OpenCV backend to process images in real time based on the defined flow.
 
@@ -21,8 +21,8 @@ A web-based UI that lets users visually build and experiment with image processi
 1. Clone the Repo
 ```
 bash
-git clone https://github.com/Prince7036/opencv-workflow-executor.git
-cd opencv-workflow-executor
+git clone https://github.com/Prince7036/opencv-flow-executor.git
+cd opencv-flow-executor
 ```
 
 2. Run the Service
