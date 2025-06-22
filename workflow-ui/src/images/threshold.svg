@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0995E;}
+	.st1{opacity:0.2;}
+	.st2{fill:#231F20;}
+	.st3{fill:#77B3D4;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#4F5D73;}
+	.st6{fill:#F5CF87;}
+</style>
+<g id="Layer_1">
+	<circle class="st0" cx="32" cy="32" r="32"/>
+</g>
+<g class="st1">
+	<g>
+		<path class="st2" d="M48,14H16c-2.2,0-4,1.8-4,4v8v24c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V26v-8C52,15.8,50.2,14,48,14z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<!-- Main frame -->
+	<rect x="14" y="16" width="36" height="32" rx="2" ry="2" fill="#FFFFFF" stroke="#AAAAAA" stroke-width="0.5"/>
+	
+	<!-- Simple photograph -->
+	<rect x="17" y="19" width="30" height="20" fill="#EEEEEE" stroke="#CCCCCC" stroke-width="0.5"/>
+	
+	<!-- Mountain scene in the photo -->
+	<polygon points="17,39 27,25 37,33 47,39" fill="#77B3D4"/>
+	<circle cx="42" cy="24" r="3" fill="#F5CF87"/>
+	
+	<!-- Threshold slider -->
+	<rect x="17" y="42" width="30" height="3" rx="1.5" ry="1.5" fill="#EEEEEE" stroke="#CCCCCC" stroke-width="0.5"/>
+	<circle cx="32" cy="43.5" r="4" fill="#E74C3C" stroke="#FFFFFF" stroke-width="1"/>
+	
+	<!-- Threshold effect visualization -->
+	<rect x="17" y="19" width="15" height="20" fill="#000000" opacity="0.7"/>
+	
+	<!-- Threshold line -->
+	<line x1="32" y1="19" x2="32" y2="39" stroke="#E74C3C" stroke-width="1.5" stroke-dasharray="2,1"/>
+	
+	<!-- B/W indicators instead of text -->
+	<circle cx="24" cy="28" r="3" fill="#000000"/>
+	<circle cx="40" cy="28" r="3" fill="#FFFFFF" stroke="#AAAAAA" stroke-width="0.5"/>
+</g>
+</svg>

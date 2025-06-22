@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0995E;}
+	.st1{opacity:0.2;}
+	.st2{fill:#231F20;}
+	.st3{fill:#77B3D4;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#4F5D73;}
+	.st6{fill:#F5CF87;}
+</style>
+<g id="Layer_1">
+	<circle class="st0" cx="32" cy="32" r="32"/>
+</g>
+<g class="st1">
+	<g>
+		<path class="st2" d="M48,14H16c-2.2,0-4,1.8-4,4v8v24c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V26v-8C52,15.8,50.2,14,48,14z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<!-- Main frame -->
+	<rect x="14" y="16" width="36" height="32" rx="2" ry="2" fill="#FFFFFF" stroke="#AAAAAA" stroke-width="0.5"/>
+	
+	<!-- Original image (left) -->
+	<rect x="17" y="19" width="12" height="12" rx="1" ry="1" fill="#EEEEEE" stroke="#CCCCCC" stroke-width="0.5"/>
+	<circle cx="23" cy="25" r="4" fill="#000000"/>
+	
+	<!-- Inverted image (right) -->
+	<rect x="35" y="19" width="12" height="12" rx="1" ry="1" fill="#EEEEEE" stroke="#CCCCCC" stroke-width="0.5"/>
+	<circle cx="41" cy="25" r="4" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="0.5"/>
+	
+	<!-- Smaller inversion arrow -->
+	<line x1="29" y1="25" x2="33" y2="25" stroke="#4F5D73" stroke-width="1.5" stroke-linecap="round"/>
+	<path d="M32,23 L35,25 L32,27" fill="none" stroke="#4F5D73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+	
+	<!-- Second example - inverted squares -->
+	<rect x="17" y="35" width="12" height="10" rx="1" ry="1" fill="#000000"/>
+	<rect x="19" y="37" width="8" height="6" rx="1" ry="1" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="0.5"/>
+	
+	<rect x="35" y="35" width="12" height="10" rx="1" ry="1" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="0.5"/>
+	<rect x="37" y="37" width="8" height="6" rx="1" ry="1" fill="#000000"/>
+	
+	<!-- Smaller second inversion arrow -->
+	<line x1="29" y1="40" x2="33" y2="40" stroke="#4F5D73" stroke-width="1.5" stroke-linecap="round"/>
+	<path d="M32,38 L35,40 L32,42" fill="none" stroke="#4F5D73" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

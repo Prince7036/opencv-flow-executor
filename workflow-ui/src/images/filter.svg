@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0995E;}
+	.st1{opacity:0.2;}
+	.st2{fill:#231F20;}
+	.st3{fill:#77B3D4;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#4F5D73;}
+	.st6{fill:#F5CF87;}
+	.st7{fill:#DDDDDD;}
+	.st8{fill:#999999;}
+	.st9{fill:#666666;}
+</style>
+<g id="Layer_1">
+	<circle class="st0" cx="32" cy="32" r="32"/>
+</g>
+<g class="st1">
+	<g>
+		<path class="st2" d="M48,14H16c-2.2,0-4,1.8-4,4v8v24c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V26v-8C52,15.8,50.2,14,48,14z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<!-- Main photo frame -->
+	<rect x="16" y="16" width="32" height="32" rx="2" ry="2" class="st4"/>
+	
+	<!-- Left side - Original image with noise pattern -->
+	<rect x="18" y="18" width="13" height="28" rx="1" ry="1" fill="#FFFFFF"/>
+	<!-- Noise pattern - dots of varying sizes -->
+	<circle cx="21" cy="22" r="1" fill="#333333"/>
+	<circle cx="24" cy="20" r="0.8" fill="#333333"/>
+	<circle cx="27" cy="23" r="1.2" fill="#333333"/>
+	<circle cx="20" cy="26" r="0.7" fill="#333333"/>
+	<circle cx="23" cy="27" r="1.1" fill="#333333"/>
+	<circle cx="26" cy="25" r="0.9" fill="#333333"/>
+	<circle cx="21" cy="30" r="1" fill="#333333"/>
+	<circle cx="25" cy="31" r="0.8" fill="#333333"/>
+	<circle cx="28" cy="29" r="1.2" fill="#333333"/>
+	<circle cx="22" cy="34" r="0.7" fill="#333333"/>
+	<circle cx="26" cy="36" r="1.1" fill="#333333"/>
+	<circle cx="20" cy="38" r="0.9" fill="#333333"/>
+	<circle cx="24" cy="40" r="1" fill="#333333"/>
+	<circle cx="27" cy="37" r="0.8" fill="#333333"/>
+	
+	<!-- Divider line -->
+	<rect x="31" y="18" width="2" height="28" fill="#231F20"/>
+	
+	<!-- Right side - Filtered image with clean pattern -->
+	<rect x="33" y="18" width="13" height="28" rx="1" ry="1" fill="#FFFFFF"/>
+	<!-- Clean pattern - structured lines -->
+	<rect x="35" y="22" width="9" height="1" fill="#333333"/>
+	<rect x="35" y="26" width="9" height="1" fill="#333333"/>
+	<rect x="35" y="30" width="9" height="1" fill="#333333"/>
+	<rect x="35" y="34" width="9" height="1" fill="#333333"/>
+	<rect x="35" y="38" width="9" height="1" fill="#333333"/>
+	
+	<!-- Kernel visualization - Filter kernel -->
+	<g transform="translate(22, 22)">
+		<rect x="0" y="0" width="5" height="5" fill="none" stroke="#F5CF87" stroke-width="0.5"/>
+		<rect x="1" y="1" width="1" height="1" fill="#F5CF87" opacity="0.3"/>
+		<rect x="2" y="1" width="1" height="1" fill="#F5CF87" opacity="0.5"/>
+		<rect x="3" y="1" width="1" height="1" fill="#F5CF87" opacity="0.3"/>
+		<rect x="1" y="2" width="1" height="1" fill="#F5CF87" opacity="0.5"/>
+		<rect x="2" y="2" width="1" height="1" fill="#F5CF87" opacity="1"/>
+		<rect x="3" y="2" width="1" height="1" fill="#F5CF87" opacity="0.5"/>
+		<rect x="1" y="3" width="1" height="1" fill="#F5CF87" opacity="0.3"/>
+		<rect x="2" y="3" width="1" height="1" fill="#F5CF87" opacity="0.5"/>
+		<rect x="3" y="3" width="1" height="1" fill="#F5CF87" opacity="0.3"/>
+	</g>
+	
+	<!-- Arrow indicating transformation -->
+	<path d="M28,30 L36,30" stroke="#231F20" stroke-width="1"/>
+	<polygon points="36,30 34,28 34,32" fill="#231F20"/>
+</g>
+</svg>

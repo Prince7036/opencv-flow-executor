@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0995E;}
+	.st1{opacity:0.2;}
+	.st2{fill:#231F20;}
+	.st3{fill:#77B3D4;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#4F5D73;}
+	.st6{fill:#F5CF87;}
+	.st7{fill:#DDDDDD;}
+	.st8{fill:#999999;}
+	.st9{fill:#666666;}
+</style>
+<g id="Layer_1">
+	<circle class="st0" cx="32" cy="32" r="32"/>
+</g>
+<g class="st1">
+	<g>
+		<path class="st2" d="M48,14H16c-2.2,0-4,1.8-4,4v8v24c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V26v-8C52,15.8,50.2,14,48,14z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<!-- Main photo frame -->
+	<rect x="16" y="16" width="32" height="32" rx="2" ry="2" class="st4"/>
+	
+	<!-- Left side - Original large image -->
+	<rect x="18" y="18" width="13" height="28" rx="1" ry="1" fill="#FFFFFF"/>
+	
+	<!-- Simple large image with mountain icon -->
+	<rect x="20" y="22" width="9" height="20" fill="#77B3D4"/>
+	<polygon points="20,42 29,42 29,32 26,28 23,32 20,30" fill="#F5CF87"/>
+	<circle cx="24" cy="26" r="2" fill="#FFFFFF"/>
+	
+	<!-- Divider line -->
+	<rect x="31" y="18" width="2" height="28" fill="#231F20"/>
+	
+	<!-- Right side - Resized smaller image -->
+	<rect x="33" y="18" width="13" height="28" rx="1" ry="1" fill="#FFFFFF"/>
+	
+	<!-- Simple smaller image with mountain icon -->
+	<rect x="37" y="26" width="5" height="12" fill="#77B3D4"/>
+	<polygon points="37,38 42,38 42,32 39.5,30 38,32 37,31" fill="#F5CF87"/>
+	<circle cx="39.5" cy="28" r="1" fill="#FFFFFF"/>
+	
+	<!-- Resize corner indicators -->
+	<path d="M36,25 L36,27 L38,25 Z" fill="#231F20"/>
+	<path d="M43,25 L41,25 L43,27 Z" fill="#231F20"/>
+	<path d="M36,39 L38,39 L36,37 Z" fill="#231F20"/>
+	<path d="M43,39 L43,37 L41,39 Z" fill="#231F20"/>
+	
+    <!-- Double-sided arrow indicating transformation -->
+    <path d="M28,40 L36,40" stroke="#231F20" stroke-width="1"/>
+    <polygon points="36,40 34,38 34,42" fill="#231F20"/>
+    <polygon points="28,40 30,38 30,42" fill="#231F20"/>
+</g>
+</svg>
